@@ -1,0 +1,55 @@
+Package: txtools
+Title: An R package facilitating analysis of RNA modifications,
+        structures, and interactions
+Version: 1.0.6
+Date: 2024-26-01
+Authors@R: 
+    person(given = "Miguel Angel",
+           family = "Garcia-Campos",
+           role = c("aut", "cre"),
+           email = "garciacampos.bioinfo@gmail.com",
+           comment = c(ORCID = "0000-0001-5223-8174", 
+                       webpage = "https://angelcampos.github.io/"))
+Description: txtools is an R package that enables the processing, analysis, and
+    visualization of RNA-seq data at the nucleotide-level resolution, seamlessly 
+    integrating alignments to the genome with transcriptomic representation.
+Depends: R (>= 4.0.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: gzip
+RoxygenNote: 7.3.2
+Suggests: testthat (>= 2.1.0), knitr, rmarkdown
+Remotes: bioc::BiocGenerics, bioc::Biostrings, bioc::edgeR,
+        bioc::genefilter, bioc::GenomeInfoDb, bioc::GenomicAlignments,
+        bioc::GenomicRanges, bioc::IRanges, bioc::limma,
+        bioc::pasillaBamSubset, bioc::plyranges, bioc::Rsamtools,
+        bioc::S4Vectors
+Imports: BiocGenerics, Biostrings, data.table, dplyr, edgeR, forcats,
+        genefilter, GenomeInfoDb, GenomicAlignments, GenomicRanges,
+        ggplot2, ggseqlogo, IRanges, lifecycle, limma,
+        pasillaBamSubset, magrittr, methods, plyranges, RcppRoll, rlang
+        (>= 0.4.3), Rsamtools, S4Vectors (>= 0.23.20), stringr, tibble,
+        tidyr, utils
+VignetteBuilder: knitr
+biocViews: DataImport, DataRepresentation, Coverage,
+        Epitranscriptomics, RNASeq, Transcription
+Roxygen: list(markdown = TRUE)
+URL: https://doi.org/10.1093/nar/gkae203
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: txtools
+RemoteUsername: AngelCampos
+RemoteRef: HEAD
+RemoteSha: 72ddeae807fa1383b3bac4cc935c99a775612733
+GithubRepo: txtools
+GithubUsername: AngelCampos
+GithubRef: HEAD
+GithubSHA1: 72ddeae807fa1383b3bac4cc935c99a775612733
+NeedsCompilation: no
+Packaged: 2025-07-27 12:59:15 UTC; dierks
+Author: Miguel Angel Garcia-Campos [aut, cre]
+    (<https://orcid.org/0000-0001-5223-8174>,
+    https://angelcampos.github.io/)
+Maintainer: Miguel Angel Garcia-Campos <garciacampos.bioinfo@gmail.com>
+Built: R 4.2.0; ; 2025-07-27 12:59:17 UTC; unix

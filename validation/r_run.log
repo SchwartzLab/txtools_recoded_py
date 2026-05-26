@@ -1,0 +1,21 @@
+txtools version: 1.0.6 
+Reading number of records in file 
+1007322 number of BAM records 
+Loading BAM file 
+  |                                                                              |                                                                      |   0%  |                                                                              |=======                                                               |  10%  |                                                                              |==============                                                        |  20%  |                                                                              |=====================                                                 |  30%  |                                                                              |============================                                          |  40%  |                                                                              |===================================                                   |  50%  |                                                                              |==========================================                            |  60%  |                                                                              |=================================================                     |  70%  |                                                                              |========================================================              |  80%  |                                                                              |===============================================================       |  90%  |                                                                              |======================================================================| 100%
+0 reads filtered out for empty sequence field 
+997318 Reads succesfully loaded 
+Dumped ambiguous reads: 0 
+loaded 997318 reads
+Processing 997318 reads, using 4647 gene models. 
+948994 alignments overlap 2663 gene models 
+Assigning alignments to gene model... 
+Processing sequences. This may take several minutes depending on geneAnnot size ... 
+Output contains: 869985 unique alignments in 2495 gene models 
+Warning message:
+In tx_reads(reads, geneAnnot = geneAnnot, minReads = 50, withSeq = TRUE,  :
+  Some alignments were not assigned to any gene, you can retrieve them using the tx_get_unassignedAlignments() function.
+genes with reads: 2495 
+rows: 7914869  cols: 20 
+wrote /home/labs/schwartzlab/schwartz/tools/txtools_recoded/validation/r_chr19.tsv 
+R elapsed: 1258.3 s

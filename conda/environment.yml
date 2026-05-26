@@ -1,0 +1,18 @@
+# Conda-first install for txtools (the recommended way to avoid version clashes).
+#
+#   conda env create -f conda/environment.yml
+#   conda activate txtools
+#   pip install -e .        # installs the `txtools` command + Python API
+#
+name: txtools
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.9
+  - pysam>=0.19      # ships precompiled with htslib; no compiler needed
+  - numpy>=1.21
+  - pandas>=1.3
+  - pip
+  - pip:
+      - -e ..

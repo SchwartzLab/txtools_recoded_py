@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "txtools"
+version = "0.1.0"
+description = "Process and analyze RNA-seq alignments in transcriptomic coordinates at nucleotide resolution (Python reimplementation of the txtools R package)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Schwartz Lab" },
+]
+keywords = ["RNA-seq", "epitranscriptomics", "transcriptomics", "RNA modifications", "bioinformatics"]
+
+# Pinned lower bounds chosen to match a known-good conda environment
+# (pysam 0.20, numpy 1.24, pandas 1.5) while staying broadly compatible.
+dependencies = [
+    "pysam>=0.19",
+    "numpy>=1.21",
+    "pandas>=1.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+binary = ["pyinstaller>=5.0"]
+
+[project.scripts]
+txtools = "txtools.cli:main"
+
+[project.urls]
+"Original R package" = "https://github.com/AngelCampos/txtools"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+txtools = ["py.typed"]

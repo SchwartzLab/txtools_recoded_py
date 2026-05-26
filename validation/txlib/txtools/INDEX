@@ -1,0 +1,116 @@
+IUPAC_CODE_MAP_extended
+                        IUPAC code extended to consider deletions
+IUPAC_code_2nucs        IUPAC ambiguity alphabet (2nc)
+IUPAC_code_simpl        Simplified nucleotide alphabet
+annotSites_RRACH        RRACH sites annotation D. melanogaster
+bam_sk1                 Genomic Alignments example - Sk1 yeast
+gA_sk1                  Gene annotation example - Sk1 yeast
+genome_sk1              Genome example - Sk1 yeast
+getDumpedAlignments     Retrieve dumped alignments
+hid_aggregate_DTlist    Merge lists of data.tables
+hlp_coverageTab_mc      Calculate coverage table (coverage, ends,
+                        starts) for all gene models without gene
+                        coordinates (Multicore)
+hlp_genCoorTab_mc       Coordinate system table generator
+hlp_nucFreqTab_mc       Calculate nucleotide frequency pileup for all
+                        gene models
+hlp_plot_metageneRegions
+                        Plot an extracted metaGeneMatrix
+mm_geneAnnot            Download gene annotation - Case study # 2
+sc_faGenome             Download genome to temporary file - Case study
+                        # 1
+sc_geneAnnot            Download gene annotation - Case study #1
+sc_rRNAmods_Taoka       Sk1 rRNA modifications catalogue
+sc_txDTL                txtools-processed data - Case study # 1
+tk_faGenome             Download genome to temporary file - Case study
+                        # 3
+tk_geneAnnot            Download gene annotation - Case study # 3
+txCoreCols              txtools' core cols
+txCoreCols_refSeq       txtools' core cols and refSeq
+txDTL_Tk                txtools-processed data - Case study # 3
+tx_add_endRatio         Add ends to coverage ratio 1 bp downstream
+tx_add_endRatio1bpDS    Add ends to coverage ratio 1bp down-stream
+tx_add_endRatio1bpUS    Add ends to coverage ratio 1bp up-stream
+tx_add_exonNumber       Add exon number
+tx_add_exonPlace        Add exon place
+tx_add_geneRegion       Add gene regions
+tx_add_misincCount      Add counts of nucleotide reads different to the
+                        reference sequence
+tx_add_misincRate       Add misincorporation to total nucleotide reads
+                        ratio
+tx_add_misincRateNucSpec
+                        Nucleotide specific misincorporation rate
+tx_add_motifPresence    Add motif presence
+tx_add_nucTotal         Add total number of nucleotide reads
+tx_add_pos              Add position unique names
+tx_add_refSeqDT         Add reference sequence to a data.table
+tx_add_relTxPos         Add relative position in transcript
+tx_add_rollingMean      Add rolling mean
+tx_add_siteAnnotation   Add 1bp-site logical annotation
+tx_add_spliceSitesLogical
+                        Add SpliceSites
+tx_add_startRatio       Add starts to coverage ratio
+tx_add_startRatio1bpDS
+                        Add starts to coverage ratio 1 bp downstream
+tx_add_startRatio1bpUS
+                        Add starts to coverage ratio 1 bp upstream
+tx_combineTxReads       Combine txreads
+tx_complete_DT          Complete a DT object missing genes
+tx_counts               Total counts of reads per gene model
+tx_cutEnds_DT           Cutting 5' and 3' ends of data.table using
+                        txcoors
+tx_cut_geneAnnotBytxDT
+                        Cut gene annotation by txDT's genes
+tx_data_caseStudy2      Load data - Case study #2
+tx_dm3_geneAnnot        D. melanogaster gene annotation subset path
+tx_extend_UTR           Extending GRanges 5' and 3' UTR blocks
+tx_filter_maxWidth      Filter ranges by a maximum width
+tx_generatePairedEndFASTQ
+                        Generate paired-end FASTQ file
+tx_generateSingleEndFASTQ
+                        Generate single-end FASTQ file
+tx_get_flankSequence    Get flanking sequences
+tx_get_flanksFromLogicAnnot
+                        Get data from a position and their neighboring
+                        positions
+tx_get_geneLengths      Get length of genes
+tx_get_metageneAtCDS    Get metagene at CDS
+tx_get_metageneExons    Get metagene by exons
+tx_get_metageneRegions
+                        Get metagene regions
+tx_get_transcriptSeqs   Get transcriptome sequences
+tx_get_unassignedAlignments
+                        Retrieve dumped alignments
+tx_load_bam             Read paired end bam file by yield size
+tx_load_bed             Load gene models from bed-12 and bed-6 files
+tx_load_genome          Load genome
+tx_load_rdsDT           Loading RDS files into data.tables
+tx_makeDT_covNucFreq    Summarized Coverage & Nucleotide Frequency
+                        data.table
+tx_makeDT_coverage      Summarized Coverage data.table
+tx_makeDT_nucFreq       Summarized Nucleotide Frequency data.table
+tx_merge_DT             Merge data.tables in list to a single
+                        data.table
+tx_orderDT              Order txDT
+tx_plot_ggseqlogo       Plot motif centered in logical annotation
+tx_plot_metaGeneByBins
+                        Plot metagene by bins
+tx_plot_metageneAtCDS   Plot metagene at CDS
+tx_plot_metageneExons   Plot metagene exons
+tx_plot_metageneRegions
+                        Plot metagene by regions
+tx_plot_nucFreq         Nucleotide frequency plot
+tx_plot_numeric         Numeric plot
+tx_plot_staEndCov       Transcript coverage plot highlighting
+                        read-starts and read-ends counts
+tx_reads                Transcriptomic reads convertion
+tx_sampleByGenes        Sample txDT by genes
+tx_sample_GRList        Sampling alignments
+tx_shift_geneWise       Shift column in txDT
+tx_split_DT             Split data.table to list of data.tables
+tx_test_LRTedgeR        Likelihood Ratio Test
+tx_test_ttest           t-test in txDT list
+tx_unifyTxDTL           Unify lists of txDTs
+txtools                 txtools: A package facilitating analysis of RNA
+                        modifications, structures, and interactions
+window_around           Centered numeric sequence

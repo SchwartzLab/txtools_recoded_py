@@ -1,0 +1,22 @@
+[15:34:58] loading Python TSV
+[15:35:08] loading R TSV
+[15:35:17] py rows=7,914,869  r rows=7,914,869
+[15:35:27] common positions: 7,914,869
+[15:35:48] plotting
+[15:35:56] wrote /home/labs/schwartzlab/schwartz/tools/txtools_recoded/validation/txtools_comparison_chr19.html
+
+=== SUMMARY ===
+genes: both=2495 py_only=0 r_only=0
+common positions: 7,914,869  refSeq match: 100.0000%
+          cov: exact/close=99.5718%  maxΔ=120        r=0.999994  ndiff/used=33895
+     start_5p: exact/close=99.9931%  maxΔ=18         r=0.999980  ndiff/used=544
+       end_3p: exact/close=99.9931%  maxΔ=25         r=0.999979  ndiff/used=550
+            A: exact/close=99.9013%  maxΔ=120        r=0.999997  ndiff/used=7809
+            C: exact/close=99.8773%  maxΔ=120        r=0.999995  ndiff/used=9709
+            G: exact/close=99.8764%  maxΔ=120        r=0.999995  ndiff/used=9785
+            T: exact/close=99.9143%  maxΔ=120        r=0.999990  ndiff/used=6785
+            N: exact/close=100.0000%  maxΔ=1          r=0.999925  ndiff/used=3
+            -: exact/close=100.0000%  maxΔ=0          r=1.000000  ndiff/used=0
+            .: exact/close=100.0000%  maxΔ=0          r=nan  ndiff/used=0
+   misincRate: exact/close=99.8209%  maxΔ=0.043478   r=0.999993  ndiff/used=2327713
+      MR_CtoT: exact/close=99.9429%  maxΔ=0.010972   r=0.999998  ndiff/used=694913

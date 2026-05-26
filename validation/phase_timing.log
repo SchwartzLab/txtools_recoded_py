@@ -1,0 +1,23 @@
+===== PYTHON (8 cores) =====
+PHASE load_bed         0.1 s
+PHASE load_genome      0.0 s
+PHASE load_bam         0.0 s
+PHASE tx_reads        32.8 s
+PHASE makeDT          54.4 s
+PHASE add_metrics      9.4 s
+PEAKMEM_SELF 7.863 GB
+PEAKMEM_CHILD_MAX 0.115 GB
+cores used: 8
+
+===== R (8 cores) =====
+PHASE load_bed        10.0 s
+PHASE load_genome      1.4 s
+PHASE load_bam         9.2 s
+PHASE tx_reads       483.8 s
+Warning message:
+In tx_reads(reads, geneAnnot = geneAnnot, minReads = 50, withSeq = TRUE,  :
+  Some alignments were not assigned to any gene, you can retrieve them using the tx_get_unassignedAlignments() function.
+PHASE makeDT         620.5 s
+PHASE add_metrics      6.7 s
+PEAKMEM_SELF VmHWM:	 4857184 kB 
+cores used: 8 
